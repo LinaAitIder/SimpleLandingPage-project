@@ -1,0 +1,35 @@
+
+body{
+    width : 100%;
+    padding:0px;
+    position: relative;
+    margin:0px;
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+
+h1 , h6 ,h3, h4,h2, h5, p, .text, a{
+    margin:0px;
+    padding:0px;
+    margin-bottom:0px;
+    font-family: 'Changa', sans-serif;
+}
+
+.logo{
+    width:300px;
+    height:60px;
+    border-radius:30px;
+
+}
+@media  (max-width:576px)  { 
+    .logo{
+        width:auto;
+        height:40px;
+        border-radius:30px;
+    
+    }
+    .icon{
+        padding-bottom:18px!important;
+    }
+
+  }
