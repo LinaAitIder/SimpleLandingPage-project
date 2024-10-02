@@ -44,7 +44,7 @@
 
           <div>
             <button class="btn icon" type="button" onclick="toggleDarkMode()" aria-label="Toggle dark mode" id="btnSwitch" >
-              <img src="images/moon-fill.svg" alt="">
+              <img src="images/moon-fill.svg" alt="moonIcon">
             </button>
           </div>
       </header>
@@ -64,12 +64,10 @@
             </div>
 
             <div class="col-lg-6 col-md-6">
-              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-end  "> كريم ليلي للشفاه: بنكهات مختلفة وفوائد مذهلة   </h1>
-              <p class="lead text-end">احصل على شفاه ناعمة ومرطبة بشكل مثالي مع كريم ليلي للشفاه من لانجيه! تركيبة فريدة تحتوي على مكونات غذائية تقوم على تجديد الشفاه وتنعيمها. بنكهات مختلفة تجعل استخدامها أكثر متعة. استيقظي على شفاه رطبة وصحية كل صباح. جربيه الآن</p>
+              <h1 class="display-5 fw-bold text-body-emphasis lh-base mb-3 text-end"> كريم ليلي للشفاه: بنكهات مختلفة وفوائد مذهلة   </h1>
+              <p class="text-end">احصل على شفاه ناعمة ومرطبة بشكل مثالي مع كريم ليلي للشفاه من لانجيه! تركيبة فريدة تحتوي على مكونات غذائية تقوم على تجديد الشفاه وتنعيمها. بنكهات مختلفة تجعل استخدامها أكثر متعة. استيقظي على شفاه رطبة وصحية كل صباح. جربيه الآن</p>
               <div class="d-grid gap-1 d-md-flex justify-content-md-end mt-3">
-                <button type="button" class="btn b-btn btn-lg px-4" > </button>
-                <button type="button" class="btn b-btn btn-lg px-4 me-md-2 "  >اشتري الآن</button>
-                <button type="button" class="btn b-btn btn-lg px-4" > </button>
+                <button type="button" class="btn buyBtn btn-lg px-4 me-md-2 "  >اشتري الآن</button>
 
               </div>
             </div>
@@ -87,7 +85,7 @@
           <div class="row g-3 py-5 row-cols-1 row-cols-lg-3 container-fluid align-items-center justify-content-center">
             <div class=" col m-3">
               <div class="d-flex align-items-center justify-content-center  bg-gradient fs-2 m-3" >
-              <img src="images/dry.png" alt="">
+              <img src="images/dry.png" alt="dryIcon">
               </div>
               <h3 class="fs-2 text-center">للشفاه الجاف</h3>
               <p style="text-align:justify; margin:10px">يعمل قناع النوم على إصلاح وتجديد خلايا الجلد، وتحسين حاجز البشرة، مما يمنع تشقق الشفاه وجفافها. وباستخدامه بانتظام، يمكن أن يساعد قناع النوم من لاينيج في الحفاظ على ترطيب الشفاه طوال اليوم، وتحقيق نتائج ملحوظة في تحسين ملمسها وجعلها أكثر نعومة وانتعاش</p>
@@ -95,7 +93,7 @@
 
             <div class=" col">
               <div class=" d-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-                <img src="images/skin.png" alt=""  width="32px" heigth="32px">
+                <img src="images/skin.png" alt="skinIcon"  width="32px" heigth="32px">
               </div>
               <h3 class="fs-2 text-center"> ترطيب</h3>
               <p style="text-align:justify; margin:10px">تم اختبار قناع النوم من لاينيج سريرياً وثبت أنه يزيد مستويات ترطيب الشفاه حتى 24٪ بعد استخدام واحد فقط. مع الاستخدام المنتظم، يمكن أن يوفر ترطيباً طويل الأمد، ويترك الشفاه ناعمة ونضرة.
@@ -104,7 +102,7 @@
 
             <div class="col">
               <div class=" d-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-                <img src="images/skin-care.png" alt="" width="32px" heigth="32px">
+                <img src="images/skin-care.png" alt="skinCareIcon" width="32px" heigth="32px">
               </div>
               <h3 class="fs-2 text-center"> تنعيم </h3>
               <p style="text-align:justify; margin:10px">وبفضل تركيبته الفعالة، يمكن أن يزيد قناع النوم من لاينيج من ترطيب الشفاه حتى 24٪ بعد استخدام واحد فقط، ويمنح ترطيباً طويل الأمد، مما يجعل الشفاه ناعمة ومخملية. لذلك، فإن استخدام قناع النوم من لاينيج يعد خيارًا مثاليًا لمن يرغبون في تحسين ملمس شفاههم وجعلها أكثر نعومة ونضارة.
@@ -114,13 +112,15 @@
         </section>
 
         <section>
-          <h2 class="text-center border-bottom-3" style="margin-bottom:10px;">مجموعتنا</h2>
-          <div class="container flavours" >
-            <div class=" row containera w-100 justify-content-between rounded-3 bg-body-tertiary " style=" margin-left: 0px !important;margin-right: 0px !important;">
-              <div class="col-lg-4 col-md-6 col-12 ">
-                <div class="card" style="width:18rem;">
+          <h2 class="text-center mb-3">مجموعتنا</h2>
 
-                  <div class="imgbox">
+          <div class="row justify-content-center " >
+            <div class=" row productInfoContainer w-100 justify-content-between rounded-3 bg-body-tertiary " >
+
+              <div class="col-xs-12 col-md-6 col-12 d-flex justify-content-center">
+                <div class="card cardContainer w-50">
+
+                  <div class="imgbox mb-4">
                     <img src="images/lem.png" class="card-img-top rounded-3" alt="lemon lip sleeping mask">
                     <h3 class="text-center">Lip sleeping mask [Lemon Sorbet] </h3>
                   </div>
@@ -128,40 +128,42 @@
                   <div class="content">
                     <p class="mb-2">flavour: lemon</p>
                     <p>23$</p>
-                  <button class="btn b-btn" class="addtocart">Buy now!</button>
+                    <button class="btn buyBtn" class="addtocart">Buy now</button>
                   </div>
+                </div>
               </div>
-              </div>
-            <div class="col-lg-4  col-md-6 col-12 ">
-              <div class="card" style="width:18rem;">
-              <div class="imgbox">
-                <img src="images/cho.png" class="card-img-top rounded-3" alt="Chocolate lip sleeping mask">
-                <h3  class="text-center">Lip sleeping mask [Chocolate]</h3>
-              </div>
-              <div class="content">
-                <p class="mb-2">flavour: chocolate</p>
-                <p>23$</p>
-                <button class="btn b-btn" class="addtocart">Buy now!</button>
-              </div>
-              </div>
-            </div>
 
-            <div class="col-lg-4  col-md-6 col-12 ">
-              <div class="card" style="width:18rem;">
-                <div class="imgbox">
-                  <img src="images/straw.png" class="card-img-top rounded-3" alt="strawberry lip sleeping mask">
-                  <h3  class="text-center">Lip sleeping mask Ex</h3>
+              <div class="col-lg-4  col-md-6 col-12 d-flex justify-content-center">
+                <div class="card cardContainer w-50">
+                  <div class="imgbox mb-4">
+                    <img src="images/cho.png" class="card-img-top rounded-3" alt="Chocolate lip sleeping mask">
+                    <h3  class="text-center">Lip sleeping mask [Chocolate]</h3>
+                  </div>
+
+                  <div class="content">
+                    <p class="mb-0 ">flavour: chocolate</p>
+                    <p>23$</p>
+                    <button class="btn buyBtn" class="addtocart">Buy now</button>
+                  </div>
+                </div>
               </div>
-              <div class="content">
-                <p class="mb-2">flavour: strawberry</p>
-                <p>23$</p>
-                <button class="btn b-btn" class="addtocart">Buy now!</button>
+
+              <div class="col-lg-4  col-md-6 col-12 d-flex justify-content-center ">
+                <div class="card cardContainer w-50">
+                  <div class="imgbox">
+                    <img src="images/straw.png" class="card-img-top rounded-3" alt="strawberry lip sleeping mask">
+                    <h3  class="text-center">Lip sleeping mask Ex</h3>
+                </div>
+                <div class="content">
+                  <p class="mb-2">flavour: strawberry</p>
+                  <p>23$</p>
+                  <button class="btn buyBtn" class="addtocart">Buy now</button>
+                </div>
+                </div>
               </div>
-              </div>
-            </div>
             </div>
           </div>
-        </div>
+          
       </section>
 
    <br>
