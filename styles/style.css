@@ -1,13 +1,13 @@
-a{
+a {
   color: black !important;
   text-decoration:none;
 }
 
-body{
+body {
   width:100%;
 }
 
-.img-product{
+.productInSlider {
   width:80px;
   height:80px;
   border-radius: 80px;
@@ -16,7 +16,7 @@ body{
   transition: all 0.2s ease-in-out;
 }
 
-.img-product:hover {
+.productInSlider:hover {
   transform: scale(0.8);
 }
 
@@ -41,44 +41,36 @@ body{
   
 }
 
-.pa{
+.imgRoundedBorder{
   padding:70px; border-radius: 100px;;
 
 }
 
-@media(max-width:576px)  { 
-  .flavours{
-    --bs-gutter-x: 4rem!important;
-    padding-left: 10px;
-    padding-right: 10px;
-
-  }
-  
-  .product{
+@media(max-width:576px){ 
+  .sliderContainer{
     width : 396px !important;
   }
 }
 
-@media(max-width:768px) and (min-width:576px)  { 
-  .product{
+@media(max-width:768px) and (min-width:576px){ 
+  .sliderContainer{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-  }
-
-
-  .pa{
-    padding:10px;
-  }
-
-
-
-  .product{
     margin-top:-40px;
   }
 
- 
+  .imgRoundedBorder{
+    padding:10px;
+  }
+
+    
+  .contentContainer{
+    position:absolute;
+    right :90%;
+    top : 70%;
+  }
 }
 
 @media(min-width:768px){
@@ -117,10 +109,10 @@ body{
   align-items: center;
   box-shadow:0 10px 28px rgba(0, 0, 0, 0.6);
   align-items: center;
-
   transition:0.4s ease-in-out;
 
 }
+
 .card  .imgbox{
   display : flex;
   justify-content: center;
@@ -142,7 +134,7 @@ body{
   transform:translate(-10px , -20px ) rotate(-25deg) scale(1.4);
 }
 
-.productInfoContainer .cardContainer .content{
+.productInfoContainer .cardContainer .contentContainer{
   position:absolute;
   bottom:40px;
   display:flex;
@@ -154,17 +146,15 @@ body{
   visibility: hidden;
 }
 
-.content{
+.contentContainer{
   position:absolute;
   right :30%;
- 
+  top : 70%;
 }
-.productInfoContainer .cardContainer:hover .content{
+
+.productInfoContainer .cardContainer:hover .contentContainer{
   opacity:1;
   visibility:visible;
   transform:translate(0px);
 }
 
-.wrapper{
-  max-width:900px;
-}

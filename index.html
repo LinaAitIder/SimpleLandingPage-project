@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laneige</title>
 
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/OneFavicon.png">
     <!--Libraries-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -17,14 +19,11 @@
       <link rel="stylesheet" href="styles/style.css">
 
     <!--Google fonts-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Changa&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
     
   </head>
   
@@ -43,8 +42,8 @@
           </a>  
 
           <div>
-            <button class="btn icon" type="button" onclick="toggleDarkMode()" aria-label="Toggle dark mode" id="btnSwitch" >
-              <img src="images/moon-fill.svg" alt="moonIcon">
+            <button class="btn icon" type="button" onclick="window.location.href='aboutProject.html';" aria-label="About project" id="btnSwitch" >
+              <i class="bi bi-info-circle"></i>
             </button>
           </div>
       </header>
@@ -52,13 +51,13 @@
       <main>
         <div class="container bg-body-tertiary">
           <div class="row flex-lg-row-reverse flex-md-row-reverse flex-md-row align-items-center g-5 py-5 position-relative">
-            <div class="col-12-reverse col-md-6 col-lg-5 flex-column border-box container product" >
+            <div class="col-12-reverse col-md-6 col-lg-5 flex-column border-box container sliderContainer" >
               <img src="images/straw.png" class="rounded-circle border-box lipImage" width="300px">
               <div class="mx-10">
                 <ul class="d-flex flex-row" type="none" >
-                  <li type="none"><img src="images/straw.png" class="img-product   animate__animated animate__headShake" onclick="imgSlider('images/straw.png')"></li>
-                  <li type="none"><img src="images/cho.png"  class="img-product  animate__animated animate__headShake" onclick="imgSlider('images/cho.png')"></li>
-                  <li type="none"><img src="images/lem.png"  class="img-product   animate__animated animate__headShake" onclick="imgSlider('images/lem.png')"></li>
+                  <li type="none"><img src="images/straw.png" class="   productInSlider animate__animated animate__headShake" onclick="imgSlider('images/straw.png')"></li>
+                  <li type="none"><img src="images/cho.png"  class="productInSlider  animate__animated animate__headShake" onclick="imgSlider('images/cho.png')"></li>
+                  <li type="none"><img src="images/lem.png"  class=" productInSlider  animate__animated animate__headShake" onclick="imgSlider('images/lem.png')"></li>
                 </ul>
               </div>
             </div>
@@ -131,7 +130,7 @@
                     <h3 class="text-center">Lip sleeping mask [Lemon Sorbet] </h3>
                   </div>
 
-                  <div class="content">
+                  <div class="contentContainer">
                     <p class="mb-2">flavour: lemon</p>
                     <p>23$</p>
                     <button class="btn buyBtn" class="addtocart">Buy now</button>
@@ -146,7 +145,7 @@
                     <h3  class="text-center">Lip sleeping mask [Chocolate]</h3>
                   </div>
 
-                  <div class="content">
+                  <div class="contentContainer">
                     <p class="mb-0 ">flavour: chocolate</p>
                     <p>23$</p>
                     <button class="btn buyBtn" class="addtocart">Buy now</button>
@@ -160,7 +159,7 @@
                     <img src="images/straw.png" class="card-img-top rounded-3" alt="strawberry lip sleeping mask">
                     <h3  class="text-center">Lip sleeping mask Ex</h3>
                 </div>
-                <div class="content">
+                <div class="contentContainer">
                   <p class="mb-2">flavour: strawberry</p>
                   <p>23$</p>
                   <button class="btn buyBtn" class="addtocart">Buy now</button>
@@ -176,19 +175,19 @@
        <section>
       <div style="background-color:#FEF2F4;">
         <div class="container z-0" >
-          <img src="images/FigmaImage1.png" class="d-block w-100 img-fluid pa" alt="">
+          <img src="images/FigmaImage1.png" class="d-block w-100 img-fluid imgRoundedBorder" alt="">
         </div>
       </div>
 
       <div style="background-color:#FCFFB2">
         <div class="container z-0" >
-          <img src="images/FigmaImage2.png" class="d-block w-100 img-fluid pa" alt="ChocolateLipCreamInfo">
+          <img src="images/FigmaImage2.png" class="d-block w-100 img-fluid imgRoundedBorder" alt="ChocolateLipCreamInfo">
         </div>
       </div>
 
       <div style="background-color:#423F3E;">
         <div class="container z-0" >
-          <img src="images/IngrChocoLipSC.png" class="d-block w-100 img-fluid pa" alt="ChocolateLipCreamInfo">
+          <img src="images/IngrChocoLipSC.png" class="d-block w-100 img-fluid imgRoundedBorder " alt="ChocolateLipCreamInfo">
         </div>
       </div>
 
