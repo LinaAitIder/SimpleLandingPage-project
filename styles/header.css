@@ -19,8 +19,8 @@ h1 , h6 ,h3, h4,h2, h5, p, .text, a{
     width:300px;
     height:60px;
     border-radius:30px;
-
 }
+
 @media  (max-width:576px)  { 
     .logo{
         width:auto;
@@ -32,4 +32,4 @@ h1 , h6 ,h3, h4,h2, h5, p, .text, a{
         padding-bottom:18px!important;
     }
 
-  }
+}
