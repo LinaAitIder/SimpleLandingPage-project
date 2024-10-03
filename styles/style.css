@@ -112,14 +112,14 @@ body {
 
 }
 
-.card  .imgbox{
+.cardContainer  .imgbox{
   display : flex;
   justify-content: center;
   flex-direction: column;
   padding:20px;
 }
 
-.productInfoContainer  .card:hover  .imgbox{
+.productInfoContainer  .cardContainer:hover  .imgbox{
   transform: translateY(-110px);
 }
 
@@ -146,7 +146,6 @@ body {
 }
 
 .contentContainer{
-  position:absolute;
   right :30%;
   top : 70%;
 }
