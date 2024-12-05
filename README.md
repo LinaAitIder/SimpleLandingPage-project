@@ -1,4 +1,4 @@
-# Simple Responsive Landing Page 🌟
+# Simple Responsive Landing Page 
 
 A **responsive landing page** for a product, designed with **HTML**, **CSS**, and enhanced using **graphic design tools**. The project showcases a clean, modern design tailored for an **Arabic audience**.
 
